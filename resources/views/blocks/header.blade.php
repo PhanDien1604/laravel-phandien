@@ -11,7 +11,7 @@
             </div>
             <div class="contact">
                 <a href="https://www.facebook.com/profile.php?id=100039245052607"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+                <a href="https://github.com/PhanDien1604"><i class="fa-brands fa-github"></i></a>
                 <a href="#">0963865764</a>
             </div>
         </div>
