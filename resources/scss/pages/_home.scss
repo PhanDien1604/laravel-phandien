@@ -1,0 +1,33 @@
+.box-email {
+    h5 {
+        font-weight: 700 !important;
+    }
+}
+
+.box-introduce {
+    margin-top: 3rem;
+    padding: 0 2rem;
+
+    .title-introduce {
+        font-size: 3rem;
+        text-transform: uppercase;
+        font-weight: bolder;
+        text-shadow: 5px 2px 3px Indigo;
+        color: rgb(0, 255, 162);
+    }
+}
+
+.btn-sendMail {
+    margin-top: 6rem;
+    background-color: rgb(255, 221, 0);
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 0px 4px 4px rgb(0, 100, 130);
+    color: rgb(89, 89, 89) !important;
+
+    &:hover {
+        background-color: aqua;
+    }
+}
