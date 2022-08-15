@@ -13,6 +13,10 @@
                 <a href="https://www.facebook.com/profile.php?id=100039245052607"><i class="fa-brands fa-facebook"></i></a>
                 <a href="https://github.com/PhanDien1604"><i class="fa-brands fa-github"></i></a>
                 <a href="#">0963865764</a>
+                <form action="{{route('logout')}}" method="post">
+                    @csrf
+                    <button class="btn btn-secondary ms-2">Đăng xuất</button>
+                </form>
             </div>
         </div>
     </div>
