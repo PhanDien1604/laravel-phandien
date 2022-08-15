@@ -17,8 +17,6 @@ use App\Http\Controllers\MailController;
 
 Route::get('/',[HomeController::class, 'index'])->name('home');
 
-Route::get('/mail', [MailController::class, 'index'])->name('mail');
-
 Route::prefix('/api')->name('api.')->group(function() {
 
     Route::post('/sendMail', [MailController::class, 'sendEmail'])->name('sendEmail');

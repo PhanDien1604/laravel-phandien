@@ -13,11 +13,6 @@ class MailController extends Controller
 
     }
 
-    public function index()
-    {
-        return view('mail');
-    }
-
     public function sendEmail(Request $request)
     {
         $email_address = $request->input('email_address');
